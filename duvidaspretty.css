@@ -1,0 +1,118 @@
+body {
+    background-color: #21134b;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      font-family:Arial;
+      text-decoration: none;
+    }
+    
+    a{
+      color:white;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+  
+
+    .final-pag{
+        position: absolute;
+        top: 1500px;
+        left: 0px;
+        width: 1480px;
+        height: 200px;
+        background-color: #252525;
+      }
+      
+      .textofinal{
+        font-size: 40px;
+        color:white;
+      }
+
+.abaduvida{
+  background-color: #21134b;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 1390px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+  transition: 0.4s;
+  border-bottom: 2px solid white;
+}
+
+.painel{
+  padding: 0 18px;
+  width: 1300px;
+  background-color: #ffffffb1;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 20px;
+}
+
+.duvidasgeral{
+  position:absolute;
+  top: 260px;
+  left: 40px;
+  font-family:Arial;
+}
+
+.active, .abaduvida:hover {
+  background-color: #3c19a3;
+}
+
+.textoinicial{
+  color:white;
+  font-family:Arial;
+}
+
+.textao{
+  position:absolute;
+  top:50px;
+  left:540px;
+  font-size: 52px;
+}
+
+.textinho{
+  position:absolute;
+  top:140px;
+  left:300px;
+  font-size: 20px;
+}
+
+.fundoduvida{
+  position: absolute;
+  top: 220px;
+  left: 0px;
+  background-color:#21134b;
+  width: 1480px;
+  height: 1280px;
+  border-top: #ffffff solid 6px;
+
+}
