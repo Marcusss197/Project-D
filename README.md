@@ -33,6 +33,7 @@ RF 9 - Deverá conter um QR CODE da instituição para efetuação de Pix;
 RF 10 - Deverá conter uma aba chamada Vaquinha (uma aba para divulgações de "vaquinhas" 
 online para arrecadação, sendo ou não de instituições)
 
+
 ***Tecnologias***
 
 HTML
@@ -43,7 +44,9 @@ JAVASCRIPT
 
 BOOTSTRAP
 
+
 ***Integrantes***
+
 
 Hellen Vitória Marques da Silva Gonzaga - **Lider**
 
