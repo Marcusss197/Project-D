@@ -1,15 +1,15 @@
 Projeto Mensal - Periodo 2 - Descomplica UniAmerica
 
-Nome do Projeto: **Projeto D**
+Nome do Projeto: ***Projeto D***
 
-**Descrição do Projeto**
+***Descrição do Projeto***
 
 O Projeto D é um site que servirá para agrupar e listar instituições, normalmente ONG, para ajudar com doações via PIX, ou doação de roupa, alimento, materiais, etc.
 Mas com a opção de pessoas se cadastrarem através da aba "Vaquinha" para doação financeira. 
 O site demonstrará a página com informações e disponibilizará um QRCode para doação via PIX. Na aba Vaquinha, irá mostrar as informações da pessoa junto com o QRcode do pix ou o link para o site "vakinha.com", mas que também haverá opção para doação pra demais opções (roupa, alimento, materiais).
 
 
-**Requisitos Funcionais**
+***Requisitos Funcionais***
 
 RF 1 - Deverá conter um banner da instituição que direciona a uma página com informações da 
 instituição;
@@ -33,7 +33,8 @@ RF 9 - Deverá conter um QR CODE da instituição para efetuação de Pix;
 RF 10 - Deverá conter uma aba chamada Vaquinha (uma aba para divulgações de "vaquinhas" 
 online para arrecadação, sendo ou não de instituições)
 
-**Tecnologias**
+
+***Tecnologias***
 
 HTML
 
@@ -43,16 +44,17 @@ JAVASCRIPT
 
 BOOTSTRAP
 
-**Integrantes**
+***Integrantes***
+
 
 Hellen Vitória Marques da Silva Gonzaga - **Lider**
+
+Alexandre Coelho 
 
 Jhevison Galvão Cabral 
 
 Marcus Vinicius Florêncio 
 
 Marcelo Bochi 
-
-Alexandre Coelho 
 
 Robert A. Lima Rojas
