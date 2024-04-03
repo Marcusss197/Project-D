@@ -13,29 +13,46 @@ O site demonstrará a página com informações e disponibilizará um QRCode par
 
 RF 1 - Deverá conter um banner da instituição que direciona a uma página com informações da 
 instituição;
+
 RF 2 - O banner deverá conter um carrossel de mídia;
+
 RF 3 - Deverá conter uma aba com a rede social da página;
+
 RF 4 - Deverá conter um campo com o número de contato da instituição;
+
 RF 5 - Deverá conter uma barra de pesquisa para encontrar a intuição desejada;
+
 RF 6 - Deverá conter uma seção com os contatos dos participantes do grupo;
+
 RF 7 - Deverá conter uma seção para voltar a página inicial;
+
 RF 8 - Deverá conter uma aba para divulgação de eventos das instituições;
+
 RF 9 - Deverá conter um QR CODE da instituição para efetuação de Pix;
+
 RF 10 - Deverá conter uma aba chamada Vaquinha (uma aba para divulgações de "vaquinhas" 
 online para arrecadação, sendo ou não de instituições)
 
 **Tecnologias**
 
 HTML
+
 CSS
+
 JAVASCRIPT
+
 BOOTSTRAP
 
 **Integrantes**
 
 Hellen Vitória Marques da Silva Gonzaga - **Lider**
+
 Jhevison Galvão Cabral 
+
 Marcelo Bochi 
+
 Marcus Vinicius Florêncio 
+
 Alexandre Coelho 
+
 Robert A. Lima Rojas
