@@ -49,9 +49,9 @@ BOOTSTRAP
 
 Hellen Vitória Marques da Silva Gonzaga - **Lider**
 
-Jhevison Galvão Cabral 
-
 Marcus Vinicius Florêncio 
+
+Jhevison Galvão Cabral 
 
 Alexandre Coelho 
 
