@@ -52,11 +52,11 @@ Hellen Vitória Marques da Silva Gonzaga - **Lider**
 
 Jhevison Galvão Cabral 
 
-Marcelo Bochi 
+
 
 Marcus Vinicius Florêncio 
 
-
+Marcelo Bochi 
 
 Alexandre Coelho 
 
