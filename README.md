@@ -36,15 +36,23 @@ online para arrecadação, sendo ou não de instituições)
 ***Tecnologias***
 
 HTML
+
 CSS
+
 JAVASCRIPT
+
 BOOTSTRAP
 
 ***Integrantes***
 
 Hellen Vitória Marques da Silva Gonzaga - **Lider**
+
 Jhevison Galvão Cabral 
+
 Marcelo Bochi 
+
 Marcus Vinicius Florêncio 
+
 Alexandre Coelho 
+
 Robert A. Lima Rojas
