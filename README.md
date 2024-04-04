@@ -48,11 +48,11 @@ BOOTSTRAP
 ***Integrantes***
 
 
-Hellen Vitória Marques da Silva Gonzaga - **Lider**
-
-Jhevison Galvão Cabral 
+Hellen Vitória Marques da Silva Gonzaga - **Lider** 
 
 Alexandre Coelho
+
+Jhevison Galvão Cabral
 
 Marcus Vinicius Florêncio 
 
