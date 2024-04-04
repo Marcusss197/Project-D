@@ -50,12 +50,12 @@ BOOTSTRAP
 
 Hellen Vitória Marques da Silva Gonzaga - **Lider** 
 
+Marcus Vinicius Florêncio 
+
 Alexandre Coelho
+
+Marcelo Bochi.
 
 Jhevison Galvão Cabral
 
-Marcus Vinicius Florêncio 
-
 Robert A. Lima Rojas
-
-Marcelo     Bochi.
