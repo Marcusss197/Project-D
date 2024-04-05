@@ -1,0 +1,104 @@
+body {
+    background-color: #21134b;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      font-family:Arial;
+      text-decoration: none;
+    }
+    
+    a{
+      color:white;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color: #111;
+    }
+  
+
+    .final-pag{
+        position: absolute;
+        top: 1500px;
+        left: 0px;
+        width: 1480px;
+        height: 200px;
+        background-color: #252525;
+      }
+      
+      .textofinal{
+        font-size: 40px;
+        color:white;
+      }
+
+.textocontato{
+    position:absolute;
+    top:130px;
+    left:640px;
+    font-family:Arial;
+    color:white;
+    font-size:55px
+}
+
+.desccontato{
+    position:absolute;
+    top:240px;
+    left:465px;
+    height: 100px;
+    width: 1000px;
+    font-family:Arial;
+    color:white;
+    font-size:18px
+}
+
+.desccontato2{
+    position:absolute;
+    top:265px;
+    left:450px;
+    height: 100px;
+    width: 1000px;
+    font-family:Arial;
+    color:white;
+    font-size:18px
+}
+
+.customcontato{
+    position: absolute;
+    top:400px;
+    left:400px;
+    color:white;
+    font-family:arial;
+    font-size:25px;
+}
+
+.imputpretty{
+    height: 30px;
+    border: none;
+}
+
+.imputmsgpretty{
+    border: none;
+    width: 700px;
+    height: 300px;
+}
