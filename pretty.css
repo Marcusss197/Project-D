@@ -93,8 +93,9 @@ img {
 
 .textoinicial{
   color:white;
-
+  font-family: Arial;
 }
+
 .casasofia{
   opacity: 0;
   position: absolute;
