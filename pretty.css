@@ -221,3 +221,24 @@ img {
     font-family: arial;
 
 }
+
+
+.card-instituicao:hover {
+  box-shadow: 21px 21px 21px 0 rgba(0, 0, 0,.26);
+  transform: translateY(-5px);
+}
+
+.card-instituicao{
+  display: flex;
+  
+  justify-content: space-around;
+  
+  transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+}
+
+.list-card-ongs{
+  display:flex;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+}
