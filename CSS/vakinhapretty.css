@@ -20,19 +20,6 @@ button{
 
 }
 
-.carousel-control-prev{
-  justify-content: flex-start;
-  top: 160px;
-  left: 10px;
-}
-
-.carousel-control-next{
-  justify-content: flex-end;
-  top: 160px;
-  right: 10px;
-}
-
-
 
 /* navbar */
 * {
@@ -81,54 +68,12 @@ nav {
 
 
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.centro{
-  display: inline-block;
-  position: relative;
-}
-
-.centro h1{
-  position: absolute;
-  top: 60px;
-  left: 100px;
-  font-size: 60px;
-  color: white;
-  font-family: Arial;
-  animation: animacao-direita 2s ease 0.2s 1 normal forwards;
-  opacity: 0;
-}
-
-.centro p {
-  position: absolute;
-  top: 145px;
-  left: 100px;
-  font-size: 40px;
-  color: white;
-  font-family: Arial;
-  font-weight: bolder;
-  animation: animacao-direita 2s ease 0.4s 1 normal forwards;
-  opacity: 0;
-}
-
-.centro b {
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  font-size: 40px;
-  color: white;
-  font-family: Arial;
-  animation: animacao-direita 2s ease 0.6s 1 normal forwards;
-  opacity: 0;
-}
 
 .textoinicial{
-  color:white;
-  font-family: Arial;
+    position: absolute;
+    top:200px;
+    color:white;
+    font-family: Arial;
 }
 
 .final-pag{
@@ -144,52 +89,7 @@ img {
   color:white;
 }
 
-@keyframes myAnim {
-	0% {
-		opacity: 0;
-		transform: translateX(-50px);
-	}
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-.busca{
-  background-color: white;
-  display: flex;
-  align-items: center;
-}
-
-.lupa{
-  width: 40px;
-  height: 40px;
-  align-items:center;
-  justify-content:center;
-  background-color: white;
-  display: flex;
-}
-
-.lupa i{
-  font-size: 20px;
-}
-.busca-imput{
-  border: none;
-  outline: none;
-  font-size: 30px;
-}
-
-@keyframes animacao-direita {
-	0% {
-		opacity: 0;
-		transform: translateX(-50px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
 
 .fontelogos{
     top:5px;
@@ -197,6 +97,21 @@ img {
 
 }
 
+.card-instituicao-destaque{
+  display: flex;
+  justify-content: space-around;
+  transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
+  border: rgb(242, 0, 255) 6px solid;
+  
+}
+
+.destaque{
+    color:rgb(123, 0, 160);
+}
+.card-instituicao-destaque:hover {
+    box-shadow: 21px 21px 21px 0 rgba(0, 0, 0,.26);
+    transform: translateY(-5px);
+  }
 
 .card-instituicao:hover {
   box-shadow: 21px 21px 21px 0 rgba(0, 0, 0,.26);
@@ -213,7 +128,7 @@ img {
 
 .btn-purple:hover{
 
-  background-color: #21134b;
+  background-color: #643ae2;
   color: white;
 
 }
@@ -229,3 +144,5 @@ img {
   gap:70px;
   justify-content: center;
 }
+
+
