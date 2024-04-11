@@ -157,9 +157,8 @@ img {
 }
 
 .final-pag{
-  position: absolute;
-  top:1500px;
-  left: 0px;
+  display: flex;
+  align-self:flex-end;
   width: 1480px;
   height: 200px;
   background-color: #252525;
