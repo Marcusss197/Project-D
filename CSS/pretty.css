@@ -227,8 +227,22 @@ img {
 .card-instituicao:hover {
   box-shadow: 21px 21px 21px 0 rgba(0, 0, 0,.26);
   transform: translateY(-5px);
+
 }
 
+.btn-purple{
+  
+  background-color: #4929ab;
+  color: white;
+
+}
+
+.btn-purple:hover{
+
+  background-color: #21134b;
+  color: white;
+
+}
 .card-instituicao{
   display: flex;
   
@@ -240,6 +254,6 @@ img {
 .list-card-ongs{
   display:flex;
   flex-wrap: wrap;
-  gap:20px;
+  gap:70px;
   justify-content: center;
 }
