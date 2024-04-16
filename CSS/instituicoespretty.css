@@ -76,12 +76,13 @@ nav {
     font-family: Arial;
 }
 
-.final-pag{
-  display: flex;
-  align-self:flex-end;
-  width: 1480px;
-  height: 200px;
-  background-color: #252525;
+footer {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: -10px;
 }
 
 .textofinal{

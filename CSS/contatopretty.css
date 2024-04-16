@@ -53,14 +53,14 @@ nav {
 /* navbar */
   
 
-    .final-pag{
-        position: absolute;
-        top: 1500px;
-        left: 0px;
-        width: 1480px;
-        height: 200px;
-        background-color: #252525;
-      }
+footer {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin-top: 1200px;
+  margin-left: -10px;
+}
       
       .textofinal{
         font-size: 40px;
