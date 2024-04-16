@@ -1,0 +1,248 @@
+body {
+    background-color: #21134b;
+    background-image:url(../FILES/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  
+     /* navbar */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 8vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  top:18px;
+  left:350px;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+/* navbar */
+  
+  .logo {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-size: 40px;
+    color: white;
+    background-color: #FFFFFF;
+    height: 300px;
+    border-radius:50%;
+    width: 300px;
+    overflow: hidden;
+    border: 6px purple solid;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  
+  .wpp{
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .wpptext{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width: 200px; 
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #ffffff;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .insta{
+    position: absolute;
+    top: 480px;
+    left: 50px;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .instatext{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    width: 200px; 
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #ffffff;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .telefone{
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .telefonetext{
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    width: 200px; 
+    height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #ffffff;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .galeria{
+    position: absolute;
+    top: 800px;
+    left: 80px;
+    font-size: 40px;
+    color: white;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .galeriab{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    font-size: 40px;
+    color: white;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .bio {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 650px; 
+    height: 380px; 
+    overflow: hidden; 
+    background-color: #6a0a9a;
+    animation: animacao-direita 2s ease 0s 1 normal forwards;
+    }
+  
+  h1.biotitulo {
+    position: absolute;
+    top:20px;
+    left:230px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #ffffff;
+    }
+    
+  p.biotexto {
+    position: absolute;
+    top:70px;
+    text-indent: 20px;
+    text-align: center;
+    text-align-last: center;
+    font-family:Arial;
+    letter-spacing: 1px;
+    color:white;
+    }
+  
+  
+  .doacao {
+      position: absolute;
+      top: 500px;
+      right: 150px;
+      width: 500px;
+      height: 40px;
+      border: 3px solid #008a29;
+      padding: 30px;
+      margin: 0px;
+      font-size: 30px;
+      font-weight: bold;
+      font-style: normal;
+      font-family:Arial;
+      text-align: center; 
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #00ff11; 
+      cursor: pointer;
+      animation: animacao-direita 2s ease 0s 1 normal forwards;
+  
+  }
+  
+  .yt{
+    position: absolute;
+    left: 300px;
+    top: 850px;
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+  
+  .final-pag{
+    position: absolute;
+    top:2200px;
+    left: 0px;
+    width: 1480px;
+    height: 200px;
+    background-color: #252525;
+  }
+  
+  .textofinal{
+    font-size: 40px;
+    color:white;
+  }
+  
+  @keyframes animacao-esquerda {
+      0% {
+          opacity: 0;
+          transform: translateX(-50px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
+  @keyframes animacao-direita {
+      0% {
+          opacity: 0;
+          transform: translateX(50px);
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
