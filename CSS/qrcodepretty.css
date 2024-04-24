@@ -41,9 +41,6 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
-  position: absolute;
-  top:18px;
-  left:350px;
 }
 
 .nav-list li {
@@ -124,4 +121,8 @@ nav {
   .textofinal{
     font-size: 40px;
     color:white;
+  }
+
+  ul {
+    margin-bottom: unset;
   }

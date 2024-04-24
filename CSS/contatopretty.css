@@ -41,9 +41,6 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
-  position: absolute;
-  top:18px;
-  left:380px;
 }
 
 .nav-list li {
@@ -133,4 +130,8 @@ footer {
     border: none;
     width: 700px;
     height: 300px;
+}
+
+ul {
+  margin-bottom: unset;
 }
