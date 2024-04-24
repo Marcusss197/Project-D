@@ -1,0 +1,28 @@
+.qrcode {
+    position: unset;
+}
+
+.texto {
+    position: unset;
+    border-bottom: 0;
+    width: 378px;
+    height: 300px;
+    padding-left: 25px;
+}
+
+.code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.botoes {
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    right: unset;
+}
