@@ -41,9 +41,6 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
-  position: absolute;
-  top:18px;
-  left:350px;
 }
 
 .nav-list li {
@@ -247,5 +244,9 @@ nav {
           opacity: 1;
           transform: translateX(0);
       }
+  }
+
+  ul {
+    margin-bottom: unset;
   }
   
