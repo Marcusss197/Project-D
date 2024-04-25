@@ -75,7 +75,7 @@ nav {
   .wpptext{
     position: absolute;
     top: 15px;
-    left: 10px;
+    left: 15px;
     width: 200px; 
     height: 100px;
     text-align: center;
@@ -95,7 +95,7 @@ nav {
   .instatext{
     position: absolute;
     top: 15px;
-    left: 5px;
+    left: 55px;
     width: 200px; 
     height: 100px;
     text-align: center;
@@ -115,7 +115,7 @@ nav {
   .telefonetext{
     position: absolute;
     top: 15px;
-    left: 5px;
+    left: 15px;
     width: 200px; 
     height: 100px;
     text-align: center;

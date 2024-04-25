@@ -1,4 +1,4 @@
-8Projeto Mensal - Periodo 2 - Descomplica UniAmerica
+Projeto Mensal - Periodo 2 - Descomplica UniAmerica
 
 Nome do Projeto: ***Projeto D***
 

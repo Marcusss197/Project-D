@@ -1,5 +1,3 @@
-div{text-align: center;}
-
 body {
   background-color: #21134b;
   background-image:url(../FILES/background.jpg);
@@ -71,7 +69,7 @@ nav {
     color: white;
     padding: 50px;
     text-align: center;
-    margin-top: 2200px;
+    margin-top: 500px;
     margin-left: -10px;
   }
   
@@ -106,4 +104,60 @@ nav {
   
   ul {
     margin-bottom: unset;
+  }
+
+  .text-top{
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .progress{
+    width: 550px;
+    height: 20px;
+  }
+
+  .foto-inicial{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 550px;
+    height: 500px;
+    border: black solid 6px;
+  }
+
+  .progresso-barra{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 150px;
+
+  }
+
+  .list-group{
+    display: flex;
+    margin-left: 800px;
+    margin-top: -535px;
+    width: 450px;
+    text-align: center;
+  }
+  .text-total{
+    color: white;
+    display: flex;
+    margin-top:70px;
+    margin-left: 300px;
+  }
+  .botao-doar {
+    margin-top: 40px;
+    margin-left: 810px;
+    width: 430px;
+    height: 70px;
+    border: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00ff33; 
+  }
+
+  .botao-doar:hover{
+    filter: brightness(90%);
   }
