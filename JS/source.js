@@ -5,21 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
         img: 'FILES/casasofialogo.png',
         description: 'Fundada em Foz do Iguaçu, a Casa Sofia é uma ONG dedicada aos cachorros de rua da região. Nosso compromisso é resgatar...',
         link: 'PAGES/casasofia.html',
-        tags: ['cachorros', 'gatos', 'adocao']
+        tags: ['cachorros', 'gatos', 'adocao','animais']
       },
       {
         name: 'ACDD',
         img: 'FILES/acdd.png',
         description: 'A ACDD é uma instituição dedicada ao cuidado e apoio a crianças com deficiências de Foz do Iguaçu, Paraná...',
         link: 'PAGES/acdd.html',
-        tags: ['crianças', 'deficiências', 'escola']
+        tags: ['crianças', 'deficientes', 'escola','cadeirantes', 'pne','pcd','criancas']
       },
       {
         name: 'Lar Esperança',
         img: 'FILES/larespelogo.png',
         description: 'Albergue Lar Esperança é uma instituição dedicada a fornecer abrigo e apoio para pessoas em situação de vulnerabilidade...',
         link: 'PAGES/larespe.html',
-        tags: ['abrigo', 'moradores de rua', 'rua']
+        tags: ['abrigo', 'moradores', 'rua']
       },
       {
         name: 'Lar dos Velinhos',
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     
       renderONGs(ongs);
-      
+
     function searchONG() {
       const input = document.getElementById('searchInput').value.toLowerCase();
       const filteredONGs = ongs.filter(ong => 
