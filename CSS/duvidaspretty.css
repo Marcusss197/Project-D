@@ -53,11 +53,12 @@ nav {
 footer {
   background-color: rgb(50, 50, 50);
   color: white;
-  padding: 50px;
+  padding: 90px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 1800px;
   margin-left: -10px;
 }
+
       
       .textofinal{
         font-size: 40px;
@@ -124,7 +125,7 @@ footer {
   left: 0px;
   background-color:#21134b;
   width: 1480px;
-  height: 1280px;
+  height: 1650px;
   border-top: #ffffff solid 6px;
 
 }
