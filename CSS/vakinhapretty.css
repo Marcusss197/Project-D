@@ -99,7 +99,8 @@ footer {
   display: flex;
   justify-content: space-around;
   transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
-  border: rgb(242, 0, 255) 6px solid;
+  border: rgb(242, 0, 255) 8px solid;
+  border-radius: 10px;
   
 }
 
