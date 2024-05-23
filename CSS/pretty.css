@@ -157,6 +157,19 @@ footer {
   background-color: white;
   display: flex;
   align-items: center;
+  text-align: center;
+  width: 260px;
+  border-radius: 50px;
+  
+}
+
+.busca-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1100px;
+  border-radius: 50px;
+
 }
 
 .lupa{
@@ -166,15 +179,20 @@ footer {
   justify-content:center;
   background-color: white;
   display: flex;
+  margin-left: 20px;
 }
 
 .lupa i{
   font-size: 20px;
+  
 }
+
 .busca-imput{
   border: none;
   outline: none;
   font-size: 30px;
+  border-radius: 50px;
+  margin-left: 5px;
 }
 
 @keyframes animacao-direita {
