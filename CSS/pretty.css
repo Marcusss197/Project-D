@@ -2,7 +2,7 @@ div{text-align: center;}
 
 body {
   background-color: #21134b;
-  background-image:url(../FILES/background.jpg);
+  background-image:url(../FILES/fundoteste2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -169,6 +169,7 @@ footer {
   align-items: center;
   margin-left: -1100px;
   border-radius: 50px;
+  margin-top: 15px;
 
 }
 

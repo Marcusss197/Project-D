@@ -73,9 +73,9 @@ nav {
 .marcelo { animation-delay: 0.1s; }
 .jhevison { animation-delay: 0.3s; }
 .hellen { animation-delay: 0.5s; }
-.marcus { animation-delay: 0.7s; }
-.robert { animation-delay: 0.9s; }
-.alexandre { animation-delay: 1.1s; }
+.alexandre { animation-delay: 0.7s; }
+.marcus { animation-delay: 0.9s; }
+.robert { animation-delay: 1.1s; }
 
 .bordaimagens {
   border: 6px solid blue;

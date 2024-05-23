@@ -129,7 +129,7 @@ nav {
   left: 80px;
   font-size: 40px;
   color: white;
-  animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  
 }
 
 .galeriab{
@@ -138,7 +138,7 @@ nav {
   left: 700px;
   font-size: 40px;
   color: white;
-  animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  
 }
 
 .bio {
@@ -218,7 +218,6 @@ footer {
 }
 
 .contatos{
-
   animation: animacao-esquerda 2s ease 0s 1 normal forwards;
 }
 @keyframes animacao-esquerda {
