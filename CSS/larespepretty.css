@@ -69,8 +69,6 @@ nav {
     position: absolute;
     top: 420px;
     left: 50px;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
-    opacity: 0;
   }
   
   .wpptext{
@@ -83,15 +81,14 @@ nav {
     text-transform: uppercase;
     font-family: Arial;
     color: #ffffff;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+    
   }
   
   .insta{
     position: absolute;
     top: 480px;
     left: 50px;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
-    opacity: 0;
+    
   }
   
   .instatext{
@@ -104,15 +101,14 @@ nav {
     text-transform: uppercase;
     font-family: Arial;
     color: #ffffff;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+    
   }
   
   .telefone{
     position: absolute;
     top: 550px;
     left: 50px;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
-    opacity: 0;
+    
   }
   
   .telefonetext{
@@ -125,7 +121,7 @@ nav {
     text-transform: uppercase;
     font-family: Arial;
     color: #ffffff;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+    
   }
   
   .galeria{
@@ -134,7 +130,7 @@ nav {
     left: 80px;
     font-size: 40px;
     color: white;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+    
   }
   
   .galeriab{
@@ -143,7 +139,7 @@ nav {
     left: 700px;
     font-size: 40px;
     color: white;
-    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+    
   }
   
   .bio {
@@ -204,10 +200,14 @@ nav {
   .yt{
     position: absolute;
     left: 300px;
-    top: 850px;
+    top: 750px;
     animation: animacao-esquerda 2s ease 0s 1 normal forwards;
   }
   
+  .contatos{
+    animation: animacao-esquerda 2s ease 0s 1 normal forwards;
+  }
+
   footer {
     background-color: rgb(50, 50, 50);
     color: white;

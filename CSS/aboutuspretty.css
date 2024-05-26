@@ -49,65 +49,50 @@ nav {
 }
 /* navbar */
 
-  .marcelo{
-    position:absolute;
-    top: 150px;
-    left: 150px;
-    opacity: 0;
-    animation: entradafotos 1s ease 0.1s 1 normal forwards;
 
-  }
+.flex-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 60px;
+}
 
-  .jhevison{
-    position:absolute;
-    top: 150px;
-    left: 600px;
-    opacity: 0;
-    animation: entradafotos 1s ease 0.3s 1 normal forwards;
-  }
+.flex-icons > div {
+  flex: 1 0 33%;
+  max-width: 33%;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
 
-  .hellen{
-    position:absolute;
-    top: 150px;
-    left: 1050px;
-    opacity: 0;
-    animation: entradafotos 1s ease 0.5s 1 normal forwards;
+.marcelo, .jhevison, .hellen, .alexandre, .marcus, .robert {
+  opacity: 0;
+  animation: entradafotos 1s ease 1 normal forwards;
+}
 
-  }
-  
-  .marcus{
-    position:absolute;
-    top: 650px;
-    left: 150px;
-    opacity: 0;
-    animation: entradafotos 1s ease 0.7s 1 normal forwards;
+.marcelo { animation-delay: 0.1s; }
+.jhevison { animation-delay: 0.3s; }
+.hellen { animation-delay: 0.5s; }
+.alexandre { animation-delay: 0.7s; }
+.marcus { animation-delay: 0.9s; }
+.robert { animation-delay: 1.1s; }
 
-  }
-
-  .robert{
-    position:absolute;
-    top: 650px;
-    left: 600px;
-    opacity: 0;
-    animation: entradafotos 1s ease 0.9s 1 normal forwards;
-
-  }
-
-  .alexandre{
-    position:absolute;
-    top: 650px;
-    left: 1050px;
-    opacity: 0;
-    animation: entradafotos 1s ease 1.1s 1 normal forwards;
-
-  }
+.bordaimagens {
+  border: 6px solid blue;
+  background-color: #FFFFFF;
+  height: 300px;
+  border-radius: 50%;
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+}
 
   footer {
     background-color: rgb(50, 50, 50);
     color: white;
     padding: 90px;
     text-align: center;
-    margin-top: 1800px;
+    margin-top: 900px;
     margin-left: -10px;
   }
 
@@ -115,6 +100,7 @@ nav {
     font-size: 40px;
     color:white;
   }
+  
   
   .bordaimagens{
     border: 6px solid blue;
@@ -158,7 +144,7 @@ p{
 
 .box {
   position: absolute;
-  top: 1150px;
+  top: 1050px;
   left: 500px;
   transform: translate(-50%, -50%);
   width: 500px;

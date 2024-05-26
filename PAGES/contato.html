@@ -3,54 +3,57 @@
 
 <head>
     <title>Contato</title>
-    <link rel="icon" type="image/x-icon" href="FILES/siteicon.png">
+    <link rel="icon" type="image/x-icon" href="../FILES/siteicon.png">
     <link rel="stylesheet" href="../CSS/contatopretty.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
-
 <body>
-      <!-- navbar -->
+  <!-- Navbar -->
   <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="instituicoes.html">Instituições</a></li>
-        <li><a href="vakinha.html">Vaquinha</a></li>
-        <li><a href="duvidas.html">Dúvidas</a></li>
-        <li><a href="contato.html">Contato</a></li>
-        <li><a href="aboutus.html">Sobre nós</a></li>
-      </ul>
-    </nav>
+      <nav>
+          <ul class="nav-list">
+              <li><a href="../index.html">Início</a></li>
+              <li><a href="instituicoes.html">Instituições</a></li>
+              <li><a href="vakinha.html">Vaquinha</a></li>
+              <li><a href="duvidas.html">Dúvidas</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="aboutus.html">Sobre nós</a></li>
+          </ul>
+      </nav>
   </header>
-  <!-- navbar -->
-      
-      <h1 class="textocontato">
-        Contato
-      </h1>
-      <p class="desccontato">Caso tenha duvida, poderá acessar a aba duvidas <a href="duvidas.html">clicando aqui.</a></p>
-      <p class="desccontato2">Caso sua duvida não esteja lá, contate a gente pelo formulário abaixo</p>
-      <form>
-        <div class="customcontato">
-            <p>Nome</p>
-            <input class="imputpretty" type="text" name="nome" placeholder="Digite seu nome" size="30" required>
-            <p>Email</p>
-            <input class="imputpretty" type="email" name="email" placeholder="Digite seu email" size="30" required>
-            <p>Assunto</p>
-            <input class="imputpretty" type="text" name="assunto" placeholder="Digite seu assunto" size="40" required>
-            <p>Mensagem</p>
-            <input class="imputmsgpretty" type="text" name="mensagem" placeholder="Digite sua mensagem" size="100" required>
-        </div>
-        <button type="submit" class="enviar" href="https://youtube.com">
-          Enviar
-        </button>
+  <!-- Content -->
+  <div class="container">
+      <h1 class="textocontato">Contato</h1>
+      <p class="desccontato">Entre em contato com a gente por aqui, afim de cadastrar sua instituição ou sua Vaquinha ou tirar sua dúvidas</p>
+      <p class="desccontato2">Você poderá também tirar as dúvidas principais <u><a href="duvidas.html">clicando aqui.</a></u></p>
+      <form id="form">
+          <div class="customcontato">
+              <p>Nome</p>
+              <input class="imputpretty" type="text" name="nome" placeholder="Digite seu nome" required>
+              <p>Email</p>
+              <input class="imputpretty" type="email" name="email" placeholder="Digite seu email" required>
+              <p>Assunto</p>
+              <input class="imputpretty" type="text" name="assunto" placeholder="Digite seu assunto" required>
+              <p>Mensagem</p>
+              <textarea class="imputmsgpretty" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="enviar">Enviar</button>
       </form>
+  </div>
+  <footer>
+      <p class="textofinal">Juntos pela causa: fazendo a diferença para um mundo melhor.</p>
+  </footer>
 
-      <footer>
-        <p class="textofinal">Juntos pela causa: fazendo a diferença para um mundo melhor.</p>
-      </footer>
-
-
+  <script>
+    document.getElementById('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        const formObject = {};
+        formData.forEach((value, key) => formObject[key] = value);
+        console.log(formObject);
+    });
+</script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
     <title>Duvidas</title>
-    <link rel="icon" type="image/x-icon" href="FILES/siteicon.png">
+    <link rel="icon" type="image/x-icon" href="../FILES/siteicon.png">
     <link rel="stylesheet" href="../CSS/duvidaspretty.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
@@ -25,11 +25,9 @@
   </header>
   <!-- navbar -->
 
-      <div class="fundoduvida"></div>
-
       <div class="textoinicial">
         <h1 class="textao">Duvidas gerais</h1>
-          <p class="textinho">As principais duvidas no site estará aqui, caso sua duvida não esteja aqui, contate a gente <a href="contato.html">clicando aqui.</a></p>
+          <p class="textinho">As principais duvidas no site estará aqui, caso sua duvida não esteja aqui, contate a gente <u><a href="contato.html">clicando aqui.</a></u></p>
       </div>
 
       <div class="duvidasgeral">
@@ -61,6 +59,21 @@
 
 
 </body>
-<script src="../JS/duvidasscript.js"></script>
+<script>
+  var acc = document.getElementsByClassName("abaduvida");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var painel = this.nextElementSibling;
+      if (painel.style.maxHeight) {
+        painel.style.maxHeight = null;
+      } else {
+        painel.style.maxHeight = painel.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
 
 </html>
