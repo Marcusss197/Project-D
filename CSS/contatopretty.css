@@ -1,12 +1,12 @@
 body {
-    background-color: #21134b;
-    background-image:url(../FILES/fundoteste2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    }
+  background-color: #21134b;
+  background-image: url(../FILES/fundoteste2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
 
 
 
@@ -50,67 +50,68 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px;
 }
+
 /* navbar */
-  
+
 
 footer {
   background-color: #1b1b1b;
   color: white;
   padding: 50px;
   text-align: center;
-  margin-top:400px;
+  margin-top: 400px;
   margin-left: -10px;
 }
-      
-      .textofinal{
-        font-size: 40px;
-        color:white;
-      }
 
-.textocontato{
-    position:absolute;
-    top:130px;
-    left:640px;
-    font-family:Arial;
-    color:white;
-    font-size:55px
+.textofinal {
+  font-size: 40px;
+  color: white;
 }
 
-.desccontato{
-    position:absolute;
-    top:220px;
-    left:250px;
-    height: 100px;
-    width: 1000px;
-    font-family:Arial;
-    color:white;
-    font-size:18px
+.textocontato {
+  position: absolute;
+  top: 130px;
+  left: 640px;
+  font-family: Arial;
+  color: white;
+  font-size: 55px
 }
 
-.desccontato2{
-    position:absolute;
-    top:245px;
-    left:250px;
-    height: 100px;
-    width: 1000px;
-    font-family:Arial;
-    color:white;
-    font-size:18px
+.desccontato {
+  position: absolute;
+  top: 220px;
+  left: 250px;
+  height: 100px;
+  width: 1000px;
+  font-family: Arial;
+  color: white;
+  font-size: 18px
 }
 
-.customcontato{
-    position: absolute;
-    top:300px;
-    left:400px;
-    color:white;
-    font-family:arial;
-    font-size:25px;
+.desccontato2 {
+  position: absolute;
+  top: 245px;
+  left: 250px;
+  height: 100px;
+  width: 1000px;
+  font-family: Arial;
+  color: white;
+  font-size: 18px
 }
 
-.imputpretty{
-    height: 30px;
-    border: none;
-    font-size: 20px;
+.customcontato {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  color: white;
+  font-family: arial;
+  font-size: 25px;
+}
+
+.imputpretty {
+  height: 30px;
+  border: none;
+  font-size: 20px;
 }
 
 .enviar {
@@ -123,19 +124,19 @@ footer {
   font-weight: normal;
   font-style: normal;
   color: #ffffff;
-  background-color: #3d91ff; 
+  background-color: #3dff43;
 }
 
-.enviar:hover{
-  background-color: #70aeff; 
+.enviar:hover {
+  background-color: #70aeff;
   cursor: pointer;
 }
 
-.imputmsgpretty{
-    border: none;
-    width: 700px;
-    height: 300px;
-    font-style: normal;
+.imputmsgpretty {
+  border: none;
+  width: 700px;
+  height: 300px;
+  font-style: normal;
 }
 
 .imputmsgpretty {

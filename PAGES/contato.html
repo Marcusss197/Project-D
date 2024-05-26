@@ -4,56 +4,77 @@
 <head>
     <title>Contato</title>
     <link rel="icon" type="image/x-icon" href="../FILES/siteicon.png">
-    <link rel="stylesheet" href="../CSS/contatopretty.css"/>
+    <link rel="stylesheet" href="../CSS/contatopretty.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
-<body>
-  <!-- Navbar -->
-  <header>
-      <nav>
-          <ul class="nav-list">
-              <li><a href="../index.html">Início</a></li>
-              <li><a href="instituicoes.html">Instituições</a></li>
-              <li><a href="vakinha.html">Vaquinha</a></li>
-              <li><a href="duvidas.html">Dúvidas</a></li>
-              <li><a href="contato.html">Contato</a></li>
-              <li><a href="aboutus.html">Sobre nós</a></li>
-          </ul>
-      </nav>
-  </header>
-  <!-- Content -->
-  <div class="container">
-      <h1 class="textocontato">Contato</h1>
-      <p class="desccontato">Entre em contato com a gente por aqui, afim de cadastrar sua instituição ou sua Vaquinha ou tirar sua dúvidas</p>
-      <p class="desccontato2">Você poderá também tirar as dúvidas principais <u><a href="duvidas.html">clicando aqui.</a></u></p>
-      <form id="form">
-          <div class="customcontato">
-              <p>Nome</p>
-              <input class="imputpretty" type="text" name="nome" placeholder="Digite seu nome" required>
-              <p>Email</p>
-              <input class="imputpretty" type="email" name="email" placeholder="Digite seu email" required>
-              <p>Assunto</p>
-              <input class="imputpretty" type="text" name="assunto" placeholder="Digite seu assunto" required>
-              <p>Mensagem</p>
-              <textarea class="imputmsgpretty" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
-          </div>
-          <button type="submit" class="enviar">Enviar</button>
-      </form>
-  </div>
-  <footer>
-      <p class="textofinal">Juntos pela causa: fazendo a diferença para um mundo melhor.</p>
-  </footer>
 
-  <script>
-    document.getElementById('form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-        const formObject = {};
-        formData.forEach((value, key) => formObject[key] = value);
-        console.log(formObject);
-    });
-</script>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="instituicoes.html">Instituições</a></li>
+                <li><a href="vakinha.html">Vaquinha</a></li>
+                <li><a href="duvidas.html">Dúvidas</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="aboutus.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Content -->
+    <div class="container">
+        <h1 class="textocontato">Contato</h1>
+        <p class="desccontato">Entre em contato com a gente por aqui, afim de cadastrar sua instituição ou sua Vaquinha
+            ou tirar sua dúvidas</p>
+        <p class="desccontato2">Você poderá também tirar as dúvidas principais <u><a href="duvidas.html">clicando
+                    aqui.</a></u></p>
+        <form id="form">
+            <div class="customcontato">
+                <p>Nome</p>
+                <input class="imputpretty" type="text" id= "nome" name="nome" placeholder="Digite seu nome" required>
+                <p>Email</p>
+                <input class="imputpretty" type="email" id= "email" name="email" placeholder="Digite seu email" required>
+                <p>Assunto</p>
+                <input class="imputpretty" type="text" id= "assunto" name="assunto" placeholder="Digite seu assunto" required>
+                <p>Mensagem</p>
+                <textarea class="imputmsgpretty" id= "mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <button type="button" class="enviar" onclick="submitToGoogleForms()">Enviar</button>
+        </form>
+    </div>
+    <footer>
+        <p class="textofinal">Juntos pela causa: fazendo a diferença para um mundo melhor.</p>
+    </footer>
+
+    <script>
+        function submitToGoogleForms() {
+            event.preventDefault();
+            var nome = document.getElementById("nome").value;
+            var email = document.getElementById("email").value;
+            var assunto = document.getElementById("assunto").value;
+            var mensagem = document.getElementById("mensagem").value;
+
+            var formId = "1FAIpQLSd_w33N2n37LoRrRmG2V9Ql0vNql5wXRcG8D4JJ2EAf23jzcg";
+            var formData = {
+               "entry.948109391": nome,
+               "entry.1422741408": email,
+               "entry.27196032": assunto,
+               "entry.2030544307": mensagem
+            };
+            var queryString = Object.keys(formData).map(function (key) {
+                return encodeURIComponent(key) + '=' + encodeURIComponent(formData[key]);
+            }).join('&');
+
+            var url = "https://docs.google.com/forms/d/e/" + formId + "/formResponse?" + queryString;
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", url, true);
+            xhr.send();
+        }
+
+
+    </script>
 </body>
 
 </html>
