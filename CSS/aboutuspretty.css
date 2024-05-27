@@ -1,5 +1,5 @@
 body {
-  background-color: #532B88;
+  background-color: #231942;
   /*background-image:url(../FILES/background.jpg);*/
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #100c1f;
   height: 8vh;
 }
 
@@ -78,7 +78,7 @@ nav {
 .robert { animation-delay: 1.1s; }
 
 .bordaimagens {
-  border: 6px solid #C8B1E4;
+  border: 6px solid #7065ab;
   background-color: #FFFFFF;
   height: 300px;
   border-radius: 50%;
@@ -88,7 +88,7 @@ nav {
 }
 
   footer {
-    background-color: rgb(50, 50, 50);
+    background-color: #100c1f;
     color: white;
     padding: 90px;
     text-align: center;
@@ -99,16 +99,6 @@ nav {
   .textofinal{
     font-size: 40px;
     color:white;
-  }
-  
-  
-  .bordaimagens{
-    border: 6px solid #C8B1E4;
-    background-color: #FFFFFF;
-    height: 300px;
-    border-radius:50%;
-    width: 300px;
-    overflow: hidden;
   }
 
   @keyframes entradafotos {

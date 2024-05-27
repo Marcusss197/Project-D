@@ -1,6 +1,6 @@
 body {
-    background-color: #21134b;
-    background-image:url(../FILES/background.jpg);
+  background-color: #231942;
+  /*background-image:url(../FILES/background.jpg);*/
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #100c1f;
   height: 8vh;
 }
 
@@ -207,7 +207,7 @@ nav {
   }
 
   footer {
-    background-color: rgb(50, 50, 50);
+    background-color: #100c1f;
     color: white;
     padding: 50px;
     text-align: center;

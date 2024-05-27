@@ -1,8 +1,8 @@
 div{text-align: center;}
 
 body {
-  background-color: #21134b;
-  background-image:url(../FILES/background.jpg);
+  background-color: #231942;
+  /*background-image:url(../FILES/background.jpg);*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -48,7 +48,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #100c1f;
   height: 8vh;
 }
 
@@ -74,7 +74,7 @@ nav {
 }
 
 footer {
-  background-color: rgb(50, 50, 50);
+  background-color: #100c1f;
   color: white;
   padding: 50px;
   text-align: center;
@@ -99,7 +99,7 @@ footer {
   display: flex;
   justify-content: space-around;
   transition: box-shadow 0.2s ease-in-out, transform 0.35s ease-in-out;
-  border: rgb(242, 0, 255) 8px solid;
+  border: #BE95C4 8px solid;
   border-radius: 10px;
   
 }
