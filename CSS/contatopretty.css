@@ -69,31 +69,34 @@ footer {
 }
 
 .textocontato {
-  position: absolute;
-  top: 130px;
-  left: 640px;
+  position: flex;
+  text-align: center;
+ /* top: 130px;
+  left: 640px;*/
   font-family: Arial;
   color: white;
   font-size: 55px
 }
 
 .desccontato {
-  position: absolute;
-  top: 220px;
+  position: flex;
+  text-align: center;
+  /*top: 220px;
   left: 250px;
   height: 100px;
-  width: 1000px;
+  width: 1000px;*/
   font-family: Arial;
   color: white;
   font-size: 18px
 }
 
 .desccontato2 {
-  position: absolute;
-  top: 245px;
+  position: flex;
+  text-align: center;
+  /*top: 245px;
   left: 250px;
   height: 100px;
-  width: 1000px;
+  width: 1000px;*/
   font-family: Arial;
   color: white;
   font-size: 18px
