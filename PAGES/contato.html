@@ -26,22 +26,20 @@
     <!-- Content -->
     <div class="container">
         <h1 class="textocontato">Contato</h1>
-        <p class="desccontato">Entre em contato com a gente por aqui, afim de cadastrar sua instituição ou sua Vaquinha
-            ou tirar sua dúvidas</p>
-        <p class="desccontato2">Você poderá também tirar as dúvidas principais <u><a href="duvidas.html">clicando
-                    aqui.</a></u></p>
-        <form id="form">
+        <p class="desccontato">Entre em contato com a gente por aqui, afim de cadastrar sua instituição ou sua Vaquinha ou tirar sua dúvidas</p>
+        <p class="desccontato2">Você poderá também tirar as dúvidas principais <u><a href="duvidas.html">clicando aqui.</a></u></p>
+        <form id="form" action="https://docs.google.com/forms/d/e/1FAIpQLSd_w33N2n37LoRrRmG2V9Ql0vNql5wXRcG8D4JJ2EAf23jzcg/formResponse" method="POST" target="_self">
             <div class="customcontato">
                 <p>Nome</p>
-                <input class="imputpretty" type="text" id= "nome" name="nome" placeholder="Digite seu nome" required>
+                <input class="imputpretty" type="text" name="entry.1234567890" placeholder="Digite seu nome" required>
                 <p>Email</p>
-                <input class="imputpretty" type="email" id= "email" name="email" placeholder="Digite seu email" required>
+                <input class="imputpretty" type="email" name="entry.0987654321" placeholder="Digite seu email" required>
                 <p>Assunto</p>
-                <input class="imputpretty" type="text" id= "assunto" name="assunto" placeholder="Digite seu assunto" required>
+                <input class="imputpretty" type="text" name="entry.1122334455" placeholder="Digite seu assunto" required>
                 <p>Mensagem</p>
-                <textarea class="imputmsgpretty" id= "mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                <textarea class="imputmsgpretty" name="entry.5566778899" placeholder="Digite sua mensagem" required></textarea>
             </div>
-            <button type="button" class="enviar" onclick="submitToGoogleForms()">Enviar</button>
+            <button type="submit" class="enviar">Enviar</button>
         </form>
     </div>
     <footer>
