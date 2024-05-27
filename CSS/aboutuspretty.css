@@ -1,6 +1,6 @@
 body {
-  background-color: #21134b;
-  background-image:url(../FILES/background.jpg);
+  background-color: #532B88;
+  /*background-image:url(../FILES/background.jpg);*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -78,7 +78,7 @@ nav {
 .robert { animation-delay: 1.1s; }
 
 .bordaimagens {
-  border: 6px solid blue;
+  border: 6px solid #C8B1E4;
   background-color: #FFFFFF;
   height: 300px;
   border-radius: 50%;
@@ -103,7 +103,7 @@ nav {
   
   
   .bordaimagens{
-    border: 6px solid blue;
+    border: 6px solid #C8B1E4;
     background-color: #FFFFFF;
     height: 300px;
     border-radius:50%;
@@ -176,7 +176,7 @@ p{
   left: 15px;
   right: 15px;
   bottom: 15px;
-  border: 2px solid #ffeb3b;
+  border: 2px solid #2F184B;
   padding: 30px;
   text-align: center;
   box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
@@ -225,7 +225,7 @@ p{
   position: absolute;
   width: 100%;
   height: 2px;
-  background: #0093ff;
+  background: #E5B3FE;
   animation: animate 4s linear infinite;
 }
 @keyframes animate{
