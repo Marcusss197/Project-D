@@ -32,7 +32,7 @@ a:hover {
 nav {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;  
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #23232e;
   height: 8vh;
@@ -81,7 +81,7 @@ footer {
 
 .painel{
   padding: 0 18px;
-  width: 1300px;
+  width: 1354px;
   background-color: #ffffffb1;
   max-height: 0;
   overflow: hidden;
