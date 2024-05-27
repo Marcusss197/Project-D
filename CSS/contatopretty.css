@@ -59,7 +59,7 @@ footer {
   color: white;
   padding: 50px;
   text-align: center;
-  margin-top: 400px;
+  margin-top: 200px;
   margin-left: -10px;
 }
 
@@ -71,6 +71,7 @@ footer {
 .textocontato {
   position: flex;
   text-align: center;
+  margin-top:30px;
  /* top: 130px;
   left: 640px;*/
   font-family: Arial;
@@ -81,6 +82,7 @@ footer {
 .desccontato {
   position: flex;
   text-align: center;
+  margin-top:20px;
   /*top: 220px;
   left: 250px;
   height: 100px;
@@ -99,7 +101,8 @@ footer {
   width: 1000px;*/
   font-family: Arial;
   color: white;
-  font-size: 18px
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .customcontato {
