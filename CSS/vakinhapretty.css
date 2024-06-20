@@ -64,7 +64,9 @@ nav {
 /* navbar */
 
 
-
+.bi-share:hover{
+  cursor: pointer;
+}
 
 .textoinicial{
     position: absolute;

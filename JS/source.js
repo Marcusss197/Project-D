@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         name: 'Lar dos Velhinhos',
         img: 'FILES/lardosvelinhos.jpg',
-        description: 'O Lar dos Velhinhos de Foz do Iguaçu, acolhe hoje 72 idosos, oferecendo 6 refeições ao dia e todos os cuidados necessários para um excelente atendimento com dignidade e amor a todos nossos idosos.',
+        description: 'Lar dos Velhinhos, acolhe hoje 72 idosos, oferecendo todos os cuidados necessários para todos nossos idosos...',
         link: 'PAGES/lardosvelinhos.html',
         tags: ['idosos', 'velhos', 'veio']
       },
